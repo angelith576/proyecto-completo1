@@ -1,0 +1,34 @@
+package com.example.proyecto.completo.proyecto.completo.dto.api;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
+
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+@JsonInclude(JsonInclude.Include.NON_NULL)
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class ResponseEmployeeDTO {
+
+    private Long id;
+
+    @JsonProperty("employee_name")
+    private String employeeName;
+
+    @JsonProperty("employee_salary")
+    private  Long employeeSalary;
+
+    @JsonProperty("employee_age")
+    private  Long employeeAge;
+
+    @JsonProperty("profile_image")
+    private  String  profileImage;
+
+}
+

@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "proyectocompleto",
+      "type": "com.example.proyecto.completo.proyecto.completo.Config.CalculadoraConfig",
+      "sourceType": "com.example.proyecto.completo.proyecto.completo.Config.CalculadoraConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "proyectocompleto.calculadora",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.example.proyecto.completo.proyecto.completo.Config.CalculadoraConfig"
+    },
+    {
+      "name": "proyectocompleto.saludo",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.example.proyecto.completo.proyecto.completo.Config.CalculadoraConfig"
+    }
+  ],
+  "hints": []
+}

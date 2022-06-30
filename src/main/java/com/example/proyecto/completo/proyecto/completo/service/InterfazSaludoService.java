@@ -4,13 +4,14 @@ import org.springframework.http.ResponseEntity;
 
 public interface InterfazSaludoService {
 
-    public interface InterfazSaludoService {
+    ResponseEntity getSaludoFullname( String nombre, String apellido);
 
-        ResponseEntity getSaludo(String hora);
+    ResponseEntity  getSaludoParamName(String nombre);
+    ResponseEntity getSaludo(String hora);
 
         ResponseEntity getOperaciones();
     }
 
 
 
-}
+

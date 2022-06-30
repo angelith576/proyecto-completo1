@@ -1,8 +1,9 @@
-package com.example.proyecto.completo.service.Impl;
+package com.example.proyecto.completo.proyecto.completo.service;
+
 
 import org.springframework.http.ResponseEntity;
 
-public interface InterfazcalculadoraService {
+public interface InterfazCalculadoraService {
 
 
     ResponseEntity getSuma(String num1, String num2);

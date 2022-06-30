@@ -1,7 +1,8 @@
 package com.example.proyecto.completo.proyecto.completo.repository;
 
 
-import com.example.proyecto.completo.app.model.UsuarioEntity;
+
+import com.example.proyecto.completo.proyecto.completo.model.UsuarioEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

@@ -2,14 +2,13 @@ package com.example.proyecto.completo.proyecto.completo.model;
 
 
 
-import javax.Persistence.*;
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 
+
 @Entity
-@Table(name = "usuario")
-
-
+@Table(name = "factura")
 public class UsuarioEntity implements Serializable {
 
     @Id

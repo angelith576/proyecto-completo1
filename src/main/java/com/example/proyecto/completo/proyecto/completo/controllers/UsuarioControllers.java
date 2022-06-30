@@ -1,9 +1,9 @@
 package com.example.proyecto.completo.proyecto.completo.controllers;
 
 
-import com.example.proyecto.completo.app.dto.UsuarioDTO;
-import com.example.proyecto.completo.app.model.UsuarioEntity;
-import com.example.proyecto.completo.app.service.IUsuarioService;
+import com.example.proyecto.completo.proyecto.completo.dto.UsuarioDTO;
+import com.example.proyecto.completo.proyecto.completo.model.UsuarioEntity;
+import com.example.proyecto.completo.proyecto.completo.service.InterfazUsuarioService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,9 +13,9 @@ import javax.websocket.server.PathParam;
 @RequestMapping("/usuario")
 public class UsuarioControllers {
 
-private IUsuarioService iUsuarioService;
+private InterfazUsuarioService iUsuarioService;
 
-public UsuarioControllers(iUsuarioService iUsuarioServicie) {this.iUsuarioService = iUsuarioServicie; }
+public UsuarioControllers(InterfazUsuarioService iUsuarioServicie) {this.iUsuarioService = iUsuarioServicie; }
 
 
   @PostMapping

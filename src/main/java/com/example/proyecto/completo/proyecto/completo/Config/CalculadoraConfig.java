@@ -1,5 +1,6 @@
 package com.example.proyecto.completo.proyecto.completo.Config;
 
+import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
@@ -18,9 +19,10 @@ public class CalculadoraConfig {
     public static final String MULTIPLICACION = "tipo3";
     public static final String DIVISION = "tipo4";
     public static final String MULTIPLOS = "tipo5";
-    public static final String COSENO = "tipo6";
-    public static final String RAIZ_CUADRADA = "tipo7";
-
+    public static final String RAIZ_CUADRADA = "tipo6";
+    public static final String SENO = "tipo7";
+    public static final String COSENO = "tipo8";
+    public static final String TANGENTE = "tipo9";
     private Map<String,String> saludo;
 
     private Map<String,String> calculadora;

@@ -1,6 +1,6 @@
 package com.example.proyecto.completo.proyecto.completo.service.Impl;
 
-public class Validacon {
+public class Validacion {
     public static boolean esNumero(String num){
         boolean esNumero = true;
         int contadorPunto = 0;

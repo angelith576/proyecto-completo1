@@ -1,8 +1,9 @@
 package com.example.proyecto.completo.proyecto.completo.service;
 
-import com.example.proyecto.completo.app.dto.UsuarioDTO;
-import com.example.proyecto.completo.app.dto.UsuarioLombokDTO;
-import com.example.proyecto.completo.app.model.UsuarioEntity;
+
+import com.example.proyecto.completo.proyecto.completo.dto.UsuarioDTO;
+import com.example.proyecto.completo.proyecto.completo.dto.UsuarioLombokDTO;
+import com.example.proyecto.completo.proyecto.completo.model.UsuarioEntity;
 import org.springframework.http.ResponseEntity;
 
 

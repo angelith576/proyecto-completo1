@@ -9,11 +9,10 @@ public interface InterfazCalculadoraCientificaService {
     ResponseEntity getSeno(String numero);
 
     ResponseEntity getCoseno(String numero);
+
     ResponseEntity getTangente(String numero);
 
     ResponseEntity getMultiplos(String numero);
-
-
 
 
 }
